@@ -1,0 +1,41 @@
+title = "ansemjo"
+theme = "book"
+baseUrl = "https://semjonov.de/"
+paginate = 8
+enableGitInfo = true
+rssLimit = 20
+
+
+[params]
+  AuthorName = "Anton Semjonov"
+  license = "licensed under [Creative Commons BY-SA 4.0](/license)"
+  email = "asss@mail.com"
+
+  BookTheme = "light"
+  BookToC = true
+  BookRepo = "https://github.com/ansemjo/homepage"
+  BookEditPath = "edit/main"
+  BookDateFormat = "January 2, 2006"
+  BookSearch = true
+  BookComments = false
+  BookPortableLinks = false
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks]
+  posts = "/:section/:year/:slug"
+
+
+[markup]
+
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    style = "monokailight"
+
+  [markup.tableOfContents]
+    startLevel = 2
+
+  [markup.goldmark.renderer]
+    unsafe = true

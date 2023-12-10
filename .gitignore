@@ -1,6 +1,6 @@
 public/
 resources/
-
+themes/
 homepage-*.tar.gz
 .hugo_build.lock
 .vscode
